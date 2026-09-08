@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Digital business card of Sirikarn Chanthavornpanith, R&D Assistant at Tera Food & Beverage Company Limited">
+  <title>Sirikarn Chanthavornpanith | Tera Food & Beverage</title>
+  <style>
+    :root{
+      --ink:#1f2937;
+      --muted:#667085;
+      --brand:#f0002f;
+      --line:#eceef3;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Arial,sans-serif;
+      background:linear-gradient(180deg,#fff3f6 0%,#f8f9fc 44%,#ffffff 100%);
+      color:var(--ink);
+      min-height:100vh;
+    }
+    .wrap{max-width:520px;margin:0 auto;padding:24px 16px 40px}
+    .card{
+      background:#fff;border:1px solid rgba(240,0,47,.08);border-radius:28px;
+      box-shadow:0 20px 60px rgba(53,35,43,.10);overflow:hidden
+    }
+    .hero{
+      padding:28px 24px 20px;text-align:center;
+      background:radial-gradient(circle at 50% -8%,rgba(240,0,47,.10),transparent 38%),#fff
+    }
+    .logo{width:122px;height:auto;display:block;margin:0 auto 18px}
+    .photo{
+      width:142px;height:142px;border-radius:50%;object-fit:cover;object-position:center;
+      border:5px solid #fff;box-shadow:0 8px 30px rgba(60,45,50,.16);margin-bottom:16px
+    }
+    h1{font-size:27px;line-height:1.15;margin:2px 0 7px;letter-spacing:-.02em}
+    .role{color:var(--brand);font-weight:800;font-size:16px;margin-bottom:16px}
+    .company{font-size:15px;line-height:1.5;font-weight:700;margin:0 auto 8px;max-width:410px}
+    .address{color:var(--muted);font-size:13.5px;line-height:1.6;margin:0 auto;max-width:420px}
+    .actions{padding:20px 20px 10px}
+    .save{
+      display:flex;align-items:center;justify-content:center;width:100%;min-height:54px;
+      border-radius:16px;text-decoration:none;background:var(--brand);color:#fff;
+      font-weight:800;letter-spacing:.02em;box-shadow:0 9px 20px rgba(240,0,47,.20)
+    }
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+    .action{
+      display:flex;align-items:center;justify-content:center;min-height:50px;border:1px solid var(--line);
+      border-radius:15px;color:var(--ink);text-decoration:none;font-weight:700;background:#fff
+    }
+    .details{padding:14px 20px 24px}
+    .detail{display:flex;gap:12px;align-items:flex-start;padding:14px 4px;border-top:1px solid var(--line)}
+    .icon{
+      width:34px;height:34px;border-radius:10px;display:grid;place-items:center;
+      background:#fff0f3;color:var(--brand);font-weight:800;flex:0 0 auto
+    }
+    .label{color:var(--muted);font-size:12px;margin-bottom:2px}
+    .value{font-size:14px;line-height:1.45;word-break:break-word}
+    .footer{text-align:center;color:#98a2b3;font-size:12px;padding:18px 0 2px}
+    @media (max-width:380px){h1{font-size:23px}.photo{width:124px;height:124px}.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <div class="hero">
+        <img class="logo" src="company-logo.png" alt="Company logo">
+        <img class="photo" src="profile.png" alt="Sirikarn Chanthavornpanith">
+        <h1>Sirikarn Chanthavornpanith</h1>
+        <div class="role">R&amp;D Assistant</div>
+        <p class="company">Tera Food &amp; Beverage Company Limited</p>
+        <p class="address">
+          555 Moo 5, Pong Daeng Subdistrict,<br>
+          Kham Thale So District, Nakhon Ratchasima Province,<br>
+          Thailand 30280
+        </p>
+      </div>
+
+      <div class="actions">
+        <a class="save" href="Sirikarn_Chanthavornpanith.vcf" download>＋ SAVE CONTACT</a>
+        <div class="grid">
+          <a class="action" href="tel:+66859010059">☎ Call</a>
+          <a class="action" href="mailto:sirikarn.cha@outlook.com">✉ Email</a>
+        </div>
+      </div>
+
+      <div class="details">
+        <div class="detail">
+          <div class="icon">T</div>
+          <div><div class="label">Phone</div><div class="value">+66 85 901 0059</div></div>
+        </div>
+        <div class="detail">
+          <div class="icon">@</div>
+          <div><div class="label">Email</div><div class="value">sirikarn.cha@outlook.com</div></div>
+        </div>
+        <div class="detail">
+          <div class="icon">R</div>
+          <div><div class="label">Position</div><div class="value">R&amp;D Assistant</div></div>
+        </div>
+        <div class="detail">
+          <div class="icon">A</div>
+          <div>
+            <div class="label">Office</div>
+            <div class="value">Tera Food &amp; Beverage Company Limited<br>
+            555 Moo 5, Pong Daeng Subdistrict, Kham Thale So District, Nakhon Ratchasima Province, Thailand 30280</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">Digital Business Card</div>
+  </main>
+</body>
+</html>
